@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
+
+    <meta charset="UTF-8">
+    <title>SORTEIO</title>
+</head>
+<body>
+<form action='/' method="POST" id="form_1">
+
+
+
+    <h1>Entre com os valores(virgula)</h1>
+
+
+
+    <textarea  id='valores' required type="text" name="valores" >
+    </textarea>
+    <h1 id="pytext"> {{names2}}</h1>
+
+
+         <button type="submit" ID="btn_1">SORTEAR</button>
+
+
+
+
+</form>
+</body>
+</html>
